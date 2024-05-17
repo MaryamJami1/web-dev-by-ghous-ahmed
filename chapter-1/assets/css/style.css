@@ -1,0 +1,13 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#para{
+    height: 250px;
+    width: auto;
+    color: white;
+    background-color: maroon;
+    font-size: 25px;
+}
