@@ -10,12 +10,14 @@ var result = num1 + num2*/
 document.write("sum of " + num1 + " and " + num2 + " = " + result)*/
 
 /*template literals
- document.write(`Sum of ${num1} and ${num2} = ${result}`);*/
+document.write(`Sum of ${num1} and ${num2} = ${result}`);*/
 
  
 
- ///question-2
- /* Repeat task1 for subtraction, multiplication, division & 
+
+
+///question-2
+/* Repeat task1 for subtraction, multiplication, division & 
 modulus. */
 
 //multiplication
@@ -44,6 +46,8 @@ document.write("Division of " + num1 + " / " + num2 + " = " + result);*/
 var num2 = prompt("Enter your second number");
 var result = num1 % num2
 document.write("Modulus of " + num1 + " % " + num2 + " = " + result);*/
+
+
 
 
 //question-3
@@ -87,6 +91,8 @@ document.write("<br> The remainder is : " + a);*/
 
 
 
+
+
 //question-4
 /*Cost of one movie ticket is 600 PKR. Write a script to 
 store 
@@ -101,12 +107,16 @@ document.write("Total cost of buying 5 tickets to a movie is "+ totalPrice + " P
 
 
 
+
+
 //question-5
 /*Write a script to display multiplication table of any 
 number in your browser.  */
 
 /*document.write("<h1> <q> Table of 4 </q> </h1> ");
 document.write(" <h2> 4 x 1 = " + 4 * 1 + "<br> " + " 4 x 2 = " + 4 * 2+ "<br> " + " 4 x 3 = " + 4 * 3+ "<br> " + " 4 x 4 = " + 4 * 4+ "<br> " + " 4 x 5 = " + 4 * 5+ "<br> " + " 4 x 6 = " + 4 * 6+ "<br> " + " 4 x 7 = " + 4 * 7+ "<br> " + " 4 x 8 = " + 4 * 8+ "<br> "  + " 4 x 9 = " + 4 * 9+ "<br> " + " 4 x 10 = " + 4 * 10+ " </h2>")*/
+
+
 
 
 
@@ -118,11 +128,13 @@ b. Convert it to Fahrenheit & output “NNoC is NNoF”.
 c. Now store a Fahrenheit temperature into a variable. 
 d. Convert it to Celsius & output “NNoF is NNoC”. */
 
+/*var Celsius = 25;
+var Fahrenheit = (Celsius * 9/5) + 32;
+document.write("<h3>" + Celsius + "oC " + " is " + Fahrenheit + "oF ")
 
-
-
-
-
+var Fahrenheit = 70;
+var Celsius = (Fahrenheit - 32) * 5/9;
+document.write("<br>" + Fahrenheit + "oF " + " is " + Celsius + "oC ")*/
 
 
 
@@ -158,6 +170,7 @@ document.write("<br> Total Cost of your order is " + total);*/
 
 
 
+
 //question-8
 /*Store total marks & marks obtained by a student in 2 
 variables. Compute the percentage & show the result in 
@@ -171,6 +184,8 @@ document.write("<h1> Marks Sheet </h1>")
 document.write("Total Marks: " + totalMarks);
 document.write("<br> Obtained Marks: " + obtainedMarks);
 document.write("<br> Percentage: " + percentage + " % " )*/
+
+
 
 
 
@@ -193,6 +208,8 @@ document.write("<br> Total Currency in PKR: " + exchangeRate);*/
 
 
 
+
+
 //question-10
 /*Write a program to initialize a variable with some 
 number and do arithmetic in following sequence: 
@@ -204,6 +221,7 @@ Perform all calculations in a single expression*/
 /*var num = 5;
 num = (num + 5) * 10 / 2
 console.log(num);*/
+
 
 
 
@@ -236,6 +254,7 @@ document.write("Your age is " + age);*/
 
 
 
+
 //question-12
 /*The Geometrizer: Calculate properties of a circle. 
 a. Store a radius into a variable.
@@ -253,6 +272,7 @@ var area = pi * radius * radius;
 document.write("Radius is: " + radius);
 document.write("<br>The circumference is: " + circumference);
 document.write("<br>The area is: " + area);*/
+
 
 
 
