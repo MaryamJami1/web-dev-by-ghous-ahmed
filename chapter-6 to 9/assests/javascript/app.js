@@ -50,28 +50,22 @@ var greet = alert(`Hello ${name} Have a Good Day!`);*/
 //question-4
 /*Write a program to take input a number from user & 
 display it’s multiplication table on your browser. If user 
-does not enter a new number, multiplication table of 5 
+does not enter a new number, multiplication Input of 5 
 should be displayed by default. */
 
-/*var table = prompt("Enter a table number");
-document.write("<h2> TABLE OF " + table + "</h2>");
-document.write("<h3>" + table + " x " + " 1 " + " = " + table * 1);
-document.write("<br>" + table + " x " + " 2 " + " = " + table * 2);
-document.write("<br>" + table + " x " + " 3 " + " = " + table * 3);
-document.write("<br>" + table + " x " + " 4 " + " = " + table * 4);
-document.write("<br>" + table + " x " + " 5 " + " = " + table * 5);
-document.write("<br>" + table + " x " + " 6 " + " = " + table * 6);
-document.write("<br>" + table + " x " + " 7 " + " = " + table * 7);
-document.write("<br>" + table + " x " + " 8 " + " = " + table * 8);
-document.write("<br>" + table + " x " + " 9 " + " = " + table * 9);
-document.write("<br>" + table + " x " + " 10 " + " = " + table * 10);*/
-
-
-
-
-
-
-
+/*var Input = prompt("Enter a Input number");
+var number = Input; 
+document.write("<h2> TABLE OF " + Input + "</h2>");
+document.write("<h3>" + Input + " x " + " 1 " + " = " + Input * 1);
+document.write("<br>" + Input + " x " + " 2 " + " = " + Input * 2);
+document.write("<br>" + Input + " x " + " 3 " + " = " + Input * 3);
+document.write("<br>" + Input + " x " + " 4 " + " = " + Input * 4);
+document.write("<br>" + Input + " x " + " 5 " + " = " + Input * 5);
+document.write("<br>" + Input + " x " + " 6 " + " = " + Input * 6);
+document.write("<br>" + Input + " x " + " 7 " + " = " + Input * 7);
+document.write("<br>" + Input + " x " + " 8 " + " = " + Input * 8);
+document.write("<br>" + Input + " x " + " 9 " + " = " + Input * 9);
+document.write("<br>" + Input + " x " + " 10 " + " = " + Input * 10);*/
 
 
 
@@ -86,9 +80,9 @@ stored it in different variable.
 d) Take obtained marks for remaining 2 subjects from user 
 and store them in variables. 
 e) Now calculate total marks and percentage and show the 
-result in browser like this.(Hint: user table) */
+result in browser like this.(Hint: user Input) */
 
-var subject1 = prompt("Enetr your first subject name", "English");
+/*var subject1 = prompt("Enetr your first subject name", "English");
 var subject2 = prompt("Enetr your second subject name", "Maths");
 var subject3 = prompt("Enetr your third subject name", "Urdu");
 
@@ -105,7 +99,7 @@ var eachsubjectPercentage3 = (subject3ObtainedMarks / totalMarksEachSubject) * 1
 var allSubjectPercentage = (totalMarksObtained / totalMarks) * 100;
 
 document.write(`
-  <table border="1" style="width: 50%; margin: 0 auto; text-align: center;">
+  <Input border="1" style="width: 50%; margin: 0 auto; text-align: center;">
     <tr>
       <th>Subject</th>
       <th>Obtained Marks</th>
@@ -146,5 +140,5 @@ document.write(`
       <th colspan="3">Percentage</th>
       <td>${allSubjectPercentage.toFixed(2)}%</td>
     </tr>
-  </table>
-`);
+  </Input>
+`);*/
