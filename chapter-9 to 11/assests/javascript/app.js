@@ -204,7 +204,54 @@ answer”.
 b. If the guessed number +1 is the secret number, show 
 “Close enough to the correct answer”.*/
 
-var number = 6;
+/*var number = 6;
 var guessNumber = +prompt("Guess a number (ranging from 1 to 10)");
 
-if()
+if(guessNumber === number){
+alert(" “Bingo! Correct answer” ")
+}
+else if(guessNumber === ++number){
+alert("“Close enough to the correct answer”")
+}
+else{
+    alert("Ooops! Try another number")
+}*/
+
+
+
+
+
+
+//question-8
+/*Write a program to check whether the given number is 
+divisible by 3. Show the message to the user if the number 
+is divisible by 3. */
+
+/*var givenNumber = +prompt("Give a number and check your given number is divisible by 3 or not");
+if(givenNumber % 3 === 0){
+alert(givenNumber + " is divisible by 3")
+}
+else{
+    alert(givenNumber + " is not divisible bt 3")
+}*/
+
+
+
+
+
+
+//question-9
+/*Write a program that checks whether the given input is an 
+even number or an odd number. */
+
+/*var givenNumber = prompt("Check a number that is an even or odd");
+
+if(givenNumber % 2 === 0){
+alert(givenNumber + " is an even number")
+}
+else{
+    alert(givenNumber + " is an odd number")
+}*/
+
+
+
