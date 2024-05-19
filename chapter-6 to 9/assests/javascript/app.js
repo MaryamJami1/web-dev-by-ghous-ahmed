@@ -98,6 +98,9 @@ var eachsubjectPercentage2 = (subject2ObtainedMarks / totalMarksEachSubject) * 1
 var eachsubjectPercentage3 = (subject3ObtainedMarks / totalMarksEachSubject) * 100;
 var allSubjectPercentage = (totalMarksObtained / totalMarks) * 100;
 
+
+//////table
+
 document.write(`
   <Input border="1" style="width: 50%; margin: 0 auto; text-align: center;">
     <tr>
