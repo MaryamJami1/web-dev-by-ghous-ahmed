@@ -27,7 +27,7 @@ var male = "male";
 if(gender === female){
 alert("Good Morning Ma'am")
 }
-else if(gender=== male){
+if(gender=== male){
 alert("Good Morning Sir")
 }*/
 
@@ -48,13 +48,13 @@ var yellow = "yellow";
 if (color === red) {
     alert("Must Stop")
 }
-else if (color === green) {
+if (color === green) {
     alert("Move Now")
 }
-else if (color===yellow) {
+if (color===yellow) {
     alert("Ready to move")
-}
-*/
+}*/
+
 
 
 
@@ -255,3 +255,76 @@ else{
 
 
 
+
+
+
+
+//question-10
+/*Write a program that takes temperature as input and 
+shows a message based on following criteria 
+a. T > 40 then “It is too hot outside.” 
+b. T > 30 then “The Weather today is Normal.” 
+c. T > 20 then “Today’s Weather is cool.” 
+d. T > 10 then “OMG! Today’s weather is so Cool.” */
+
+
+/*var temperature = +prompt("Please enter a temprature and check today's weather");
+if (temperature > 40){
+document.write("“It is too hot outside.”")
+}
+else if(temperature > 30){
+document.write("<br>“The Weather today is Normal.”")
+}
+else if(temperature > 20){
+document.write("<br>“Today's Weather is cool.”")
+}
+else if(temperature > 10){
+ document.write("<br>“OMG! Today's weather is so Cool.”")
+}
+else{
+    document.write("The temperature is too low.")
+};*/
+
+
+
+
+
+
+
+
+//question-11
+/*Write a program to create a calculator for +,-,*, / & % 
+using if statements. Take the following input: 
+a. First number 
+b. Second number 
+c. Operation (+, -, *, /, %) 
+Compute & show the calculated result to user. */
+
+/*alert("Wellcome to the world of calculation");
+var firstNumber = +prompt("Enter a first number");
+var secondNumber = +prompt("Enter a second number");
+var Operation = prompt("Which operation do you want to perform (+, -, *, /, %) ")
+var sum = firstNumber + secondNumber;
+var subtract = firstNumber - secondNumber;
+var multiply = firstNumber * secondNumber;
+var division = firstNumber / secondNumber;
+var modulus = firstNumber % secondNumber;
+
+if(Operation === "+"){
+alert(`The sum of ${firstNumber} and ${secondNumber} is: ${sum}` )
+}
+else if(Operation === "-"){
+alert(`The Subtraction of ${firstNumber} and ${secondNumber} is: ${subtract}` )
+}
+else if(Operation === "*"){
+alert(`The Multiplication of ${firstNumber} x ${secondNumber} is: ${multiply}` )
+}
+else if(Operation === "/"){
+alert(`The Division of ${firstNumber} and ${secondNumber} is: ${division}` )
+}
+else if(Operation === "%"){
+    alert(`The Reminder of ${firstNumber} and ${secondNumber} is: ${modulus}` ) 
+}
+else{
+    alert("Error: Invalid operation. Please choose from (+, -, *, /, %).")
+}*/
