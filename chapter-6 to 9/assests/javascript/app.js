@@ -53,7 +53,7 @@ display it’s multiplication table on your browser. If user
 does not enter a new number, multiplication table of 5 
 should be displayed by default. */
 
-var table = prompt("Enter a table number");
+/*var table = prompt("Enter a table number");
 document.write("<h2> TABLE OF " + table + "</h2>");
 document.write("<h3>" + table + " x " + " 1 " + " = " + table * 1);
 document.write("<br>" + table + " x " + " 2 " + " = " + table * 2);
@@ -64,7 +64,7 @@ document.write("<br>" + table + " x " + " 6 " + " = " + table * 6);
 document.write("<br>" + table + " x " + " 7 " + " = " + table * 7);
 document.write("<br>" + table + " x " + " 8 " + " = " + table * 8);
 document.write("<br>" + table + " x " + " 9 " + " = " + table * 9);
-document.write("<br>" + table + " x " + " 10 " + " = " + table * 10);
+document.write("<br>" + table + " x " + " 10 " + " = " + table * 10);*/
 
 
 
@@ -87,3 +87,64 @@ d) Take obtained marks for remaining 2 subjects from user
 and store them in variables. 
 e) Now calculate total marks and percentage and show the 
 result in browser like this.(Hint: user table) */
+
+var subject1 = prompt("Enetr your first subject name", "English");
+var subject2 = prompt("Enetr your second subject name", "Maths");
+var subject3 = prompt("Enetr your third subject name", "Urdu");
+
+var totalMarksEachSubject = 100;
+var subject1ObtainedMarks = +prompt("Enter your " + subject1 + " Obtained Marks");
+var subject2ObtainedMarks = +prompt("Enter your " + subject2 + " Obtained Marks");
+var subject3ObtainedMarks = +prompt("Enter your " + subject3 + " Obtained Marks");
+
+var totalMarks = 300;
+totalMarksObtained = subject1ObtainedMarks + subject2ObtainedMarks + subject3ObtainedMarks;
+var eachsubjectPercentage1 = (subject1ObtainedMarks / totalMarksEachSubject) * 100;
+var eachsubjectPercentage2 = (subject2ObtainedMarks / totalMarksEachSubject) * 100;
+var eachsubjectPercentage3 = (subject3ObtainedMarks / totalMarksEachSubject) * 100;
+var allSubjectPercentage = (totalMarksObtained / totalMarks) * 100;
+
+document.write(`
+  <table border="1" style="width: 50%; margin: 0 auto; text-align: center;">
+    <tr>
+      <th>Subject</th>
+      <th>Obtained Marks</th>
+      <th>Total Marks</th>
+      <th>% Each Subject</th>
+    </tr>
+    <tr>
+      <td>${subject1}</td>
+      <td>${totalMarksEachSubject}</td>
+      <td>${subject1ObtainedMarks}</td>
+      <td>${eachsubjectPercentage1}%</td>
+    </tr>
+    <tr>
+      <td>${subject2}</td>
+      <td>${totalMarksEachSubject}</td>
+      <td>${subject2ObtainedMarks}</td>
+      <td>${eachsubjectPercentage2}%</td>
+    </tr>
+    <tr>
+      <td>${subject3}</td>
+      <td>${totalMarksEachSubject}</td>
+      <td>${subject3ObtainedMarks}</td>
+      <td>${eachsubjectPercentage3}%</td>
+    </tr>
+
+    
+    <tr>
+      <th colspan="2">Total Marks Obtained</th>
+      <td>${totalMarksObtained}</td>
+    </tr>
+    <tr>
+    
+      <th colspan="2">Overall Total Marks</th>
+      <td>${totalMarks}</td>
+    </tr>
+
+    <tr>
+      <th colspan="3">Percentage</th>
+      <td>${allSubjectPercentage.toFixed(2)}%</td>
+    </tr>
+  </table>
+`);
