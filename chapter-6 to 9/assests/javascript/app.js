@@ -53,7 +53,7 @@ display it’s multiplication table on your browser. If user
 does not enter a new number, multiplication Input of 5 
 should be displayed by default. */
 
-/*var Input = prompt("Enter a Input number");
+var Input = prompt("Enter a Input number" , "5");
 var number = Input; 
 document.write("<h2> TABLE OF " + Input + "</h2>");
 document.write("<h3>" + Input + " x " + " 1 " + " = " + Input * 1);
@@ -65,7 +65,7 @@ document.write("<br>" + Input + " x " + " 6 " + " = " + Input * 6);
 document.write("<br>" + Input + " x " + " 7 " + " = " + Input * 7);
 document.write("<br>" + Input + " x " + " 8 " + " = " + Input * 8);
 document.write("<br>" + Input + " x " + " 9 " + " = " + Input * 9);
-document.write("<br>" + Input + " x " + " 10 " + " = " + Input * 10);*/
+document.write("<br>" + Input + " x " + " 10 " + " = " + Input * 10);
 
 
 
