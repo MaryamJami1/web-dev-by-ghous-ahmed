@@ -114,7 +114,7 @@ browser. */
 
 
 
-var colorNames = [" Red", " Orange", " Yellow", " Green", " Purple", " Pink "];
+/*var colorNames = [" Red", " Orange", " Yellow", " Green", " Purple", " Pink "];
 document.write("<h1>Array " + colorNames);
 
 var colorInputbegin = prompt("Which color do you want to add to the begining?");
@@ -132,4 +132,4 @@ colorNames.shift();
 document.write("<h2>Forth Updated Array " + colorNames);
 
 colorNames.pop();
-document.write("<h2>Fifth Updated Array " + colorNames);
+document.write("<h2>Fifth Updated Array " + colorNames);*/
