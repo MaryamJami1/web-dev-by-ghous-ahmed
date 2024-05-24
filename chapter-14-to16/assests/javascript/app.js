@@ -88,6 +88,7 @@ document.write("<h1>Score of " + students[2] + " is " + score[2] + " and Percent
 
 
 
+
 //question-9
 /*Initialize an array with color names. Display the array 
 elements in your browser. 
@@ -114,7 +115,7 @@ browser. */
 
 
 
-var colorNames = [" Red", " Orange", " Yellow", " Green", " Purple", " Pink "];
+/*var colorNames = [" Red", " Orange", " Yellow", " Green", " Purple", " Pink "];
 document.write("<h1>Array " + colorNames);
 
 var colorInputbegin = prompt("Which color do you want to add to the begining?");
@@ -141,3 +142,10 @@ var colorInputName = prompt("Which color do you want to add?");
 
 colorNames.splice(colorInputIndex , 0 , colorInputName);
 document.write("<h2>Sixth Updated Array " + colorNames.join(", "));
+
+
+var colorInputIndexDelete = prompt("Which index do you want to delete color?");
+var colorInputDelete = prompt("How many colors do you wants to delete?");
+
+colorNames.splice(colorInputIndexDelete , colorInputDelete );
+document.write("<h2>Seventh Updated Array " + colorNames);*/
