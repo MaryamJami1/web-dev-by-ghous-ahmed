@@ -149,3 +149,58 @@ var colorInputDelete = prompt("How many colors do you wants to delete?");
 
 colorNames.splice(colorInputIndexDelete , colorInputDelete );
 document.write("<h2>Seventh Updated Array " + colorNames);*/
+
+
+
+
+
+
+
+
+
+//question-10
+/*Write a program to store student scores in an array & 
+sort the array in ascending order using Array’s sort 
+method. */
+
+/*var scores = [320, 120, 650, 450, 100, 280, 750];
+document.write("<h2>Scores of Students " + scores);
+document.write("<br>Ordered Scores of Students " + scores.sort());*/
+
+
+
+
+
+
+
+//question-11
+/*Write a program to initialize an array with city names. 
+Copy 3 array elements from cities array to selectedCities 
+array.  */
+
+
+/*var cityNames = ["Karachi", " Lahore", " Islamabad", " Murree", " Quetta", " Peshawar", " KPK"];
+document.write("<h2>City Names: " + cityNames);
+
+//copy middle elements
+var selectedCities = cityNames.slice(1, 4);
+document.write("<br><br>Selected City List: " + selectedCities);
+
+//copy last elements
+var selectedCities1 = cityNames.slice(-3);;
+document.write("<br><br>Selected Last Cities List: " + selectedCities1);*/
+
+
+
+
+
+
+
+
+
+//question-12
+/*Write a program to create a single string from the 
+below mentioned array: 
+var arr = [“This ”, “ is ”, “ my ”, “ cat”]; 
+(Use array’s join method) */
+
