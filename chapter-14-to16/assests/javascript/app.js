@@ -204,3 +204,23 @@ below mentioned array:
 var arr = [“This ”, “ is ”, “ my ”, “ cat”]; 
 (Use array’s join method) */
 
+/*var arr = ["This", " is", " my", " cat"];
+document.write("<h1>Array: " + arr);
+document.write("<br>String: " + arr.join(" "));
+document.write("<br>String: " + arr.join("-"));
+document.write("<br>String: " + arr.join("_"));*/
+
+
+
+
+
+
+//question-13
+/* Create a new array. Store values one by one in such a way 
+that you can access the values in the order in which they 
+were stored. (FIFO-First In First Out) */
+
+var newArray = [];
+
+newArray.push("Keyboard");
+
