@@ -138,14 +138,14 @@ show a true message because if only execute when its value is true*/
 
 
 
- /*if("car" < "cat"){ 
+/*if("car" < "cat"){ 
 alert("car is smaller than cat"); 
 } 
 The first characters of both strings are the same ('c').
 The comparison then moves to the second character of each string ('a' in both cases).
 The comparison then moves to the third character ('r' in "car" and 't' in "cat").
 Since the Unicode value of 'r' (114) is less than the Unicode value of 't' (116), "car" is considered smaller than "cat" lexicographically.
- */
+*/
 
 
 
@@ -167,29 +167,46 @@ var totalObtained = marksObtained1 + marksObtained2 + marksObtained3;
 var totalMarks = +prompt("Enter a Total Marks");
 var percentage = ((marksObtained1 + marksObtained2 + marksObtained3) / totalMarks) * 100;
 
-if(percentage >= 80){
-var grade = "A-one"
-var remarks = "Excellent"
+if (percentage >= 80 && percentage <= 99) {
+    var grade = "A-one"
+    var remarks = "Excellent"
+    document.write("<h1>Marks Sheet</h1>")
+    document.write("<h2>Total Marks: " + totalMarks);
+    document.write("<br>" + "Obtained Marks: " + totalObtained);
+    document.write("<br>Percentage: " + percentage.toFixed(2) + "%");
+    document.write("<br>Grade: " + grade);
+    document.write("<br>Remarks: " + remarks);
+
 }
-else if(percentage >= 70){
-var grade = "A"
-var remarks = "Good"
+else if (percentage >= 70 && percentage <= 79) {
+    var grade = "A"
+    var remarks = "Good"
+    document.write("<h1>Marks Sheet</h1>")
+    document.write("<h2>Total Marks: " + totalMarks);
+    document.write("<br>" + "Obtained Marks: " + totalObtained);
+    document.write("<br>Percentage: " + percentage.toFixed(2) + "%");
+    document.write("<br>Grade: " + grade);
+    document.write("<br>Remarks: " + remarks);
+
 }
-else if(percentage >= 60){
+else if (percentage >= 60 && percentage <= 69) {
     var grade = "B"
     var remarks = "You need to improve"
+    document.write("<h1>Marks Sheet</h1>")
+    document.write("<h2>Total Marks: " + totalMarks);
+    document.write("<br>" + "Obtained Marks: " + totalObtained);
+    document.write("<br>Percentage: " + percentage.toFixed(2) + "%");
+    document.write("<br>Grade: " + grade);
+    document.write("<br>Remarks: " + remarks);
+
 }
 else if(percentage < 60){
-    var grade = "Fail"
-    var remarks = "Need to hard work"
+alert("Ooop! You are failed you need to hard work!")
 }
+else{
+   alert("please enter orignal marks")
+}*/
 
-document.write("<h1>Marks Sheet</h1>")
-document.write("<h2>Total Marks: " + totalMarks);
-document.write("<br>" + "Obtained Marks: " + totalObtained);
-document.write("<br>Percentage: " + percentage.toFixed(2)+ "%");
-document.write("<br>Grade: " + grade);
-document.write("<br>Remarks: " + remarks);*/
 
 
 
@@ -197,11 +214,11 @@ document.write("<br>Remarks: " + remarks);*/
 
 
 //question-7
-/*Store a secret number (ranging from 1 to 10) in a variable. 
-Prompt user to guess the secret number. 
-a. If user guesses the same number, show “Bingo! Correct 
-answer”. 
-b. If the guessed number +1 is the secret number, show 
+/*Store a secret number (ranging from 1 to 10) in a variable.
+Prompt user to guess the secret number.
+a. If user guesses the same number, show “Bingo! Correct
+answer”.
+b. If the guessed number +1 is the secret number, show
 “Close enough to the correct answer”.*/
 
 /*var number = 6;
@@ -223,8 +240,8 @@ else{
 
 
 //question-8
-/*Write a program to check whether the given number is 
-divisible by 3. Show the message to the user if the number 
+/*Write a program to check whether the given number is
+divisible by 3. Show the message to the user if the number
 is divisible by 3. */
 
 /*var givenNumber = +prompt("Give a number and check your given number is divisible by 3 or not");
@@ -241,7 +258,7 @@ else{
 
 
 //question-9
-/*Write a program that checks whether the given input is an 
+/*Write a program that checks whether the given input is an
 even number or an odd number. */
 
 /*var givenNumber = prompt("Check a number that is an even or odd");
@@ -260,11 +277,11 @@ else{
 
 
 //question-10
-/*Write a program that takes temperature as input and 
-shows a message based on following criteria 
-a. T > 40 then “It is too hot outside.” 
-b. T > 30 then “The Weather today is Normal.” 
-c. T > 20 then “Today’s Weather is cool.” 
+/*Write a program that takes temperature as input and
+shows a message based on following criteria
+a. T > 40 then “It is too hot outside.”
+b. T > 30 then “The Weather today is Normal.”
+c. T > 20 then “Today’s Weather is cool.”
 d. T > 10 then “OMG! Today’s weather is so Cool.” */
 
 
