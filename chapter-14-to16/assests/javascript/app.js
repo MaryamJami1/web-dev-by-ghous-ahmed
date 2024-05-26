@@ -244,19 +244,25 @@ document.write("<br><br> Out: <br>" + removeFiFo1 + "<br> Out: <br>" + removeFiF
 
 
 
+//question-14
+/*Create a new array. Store values one by one in such a way 
+that you can access the values in reverse order. (Last In
+First Out) */
 
-// // Create an empty array
-// var fifo = [];
+var emptyArray = [];
 
-// // Add values to the array
-// fifo.push(1);
-// fifo.push(2);
-// fifo.push(3);
-// fifo.push(4);
 
-// // Display the values in FIFO order manually
-// document.write('<h2>Values in FIFO order:</h2>');
-// document.write(fifo.shift() + '<br>');
-// document.write(fifo.shift() + '<br>');
-// document.write(fifo.shift() + '<br>');
-// document.write(fifo.shift() + '<br>');
+emptyArray.unshift("Monitor");
+emptyArray.unshift("Printer");
+emptyArray.unshift("Mouse");
+emptyArray.unshift("Keyboard");
+
+console.log(emptyArray);
+document.write("<h2>Devices: <br>" + emptyArray);
+
+var removeFiFo1 = emptyArray.pop();
+var removeFiFo2 = emptyArray.pop();
+var removeFiFo3 = emptyArray.pop();
+var removeFiFo4 = emptyArray.pop();
+
+document.write("<br><br> Out: <br>" + removeFiFo1 + "<br> Out: <br>" + removeFiFo2 + "<br> Out: <br>" + removeFiFo3 + "<br> Out: <br>" + removeFiFo4);
