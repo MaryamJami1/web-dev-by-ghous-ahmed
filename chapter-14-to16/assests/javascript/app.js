@@ -249,13 +249,13 @@ document.write("<br><br> Out: <br>" + removeFiFo1 + "<br> Out: <br>" + removeFiF
 that you can access the values in reverse order. (Last In
 First Out) */
 
-var emptyArray = [];
+/*var emptyArray = [];
 
+emptyArray.push("Keyboard");
+emptyArray.push("Mouse");
+emptyArray.push("Printer");
+emptyArray.push("Monitor");
 
-emptyArray.unshift("Monitor");
-emptyArray.unshift("Printer");
-emptyArray.unshift("Mouse");
-emptyArray.unshift("Keyboard");
 
 console.log(emptyArray);
 document.write("<h2>Devices: <br>" + emptyArray);
@@ -265,4 +265,32 @@ var removeFiFo2 = emptyArray.pop();
 var removeFiFo3 = emptyArray.pop();
 var removeFiFo4 = emptyArray.pop();
 
-document.write("<br><br> Out: <br>" + removeFiFo1 + "<br> Out: <br>" + removeFiFo2 + "<br> Out: <br>" + removeFiFo3 + "<br> Out: <br>" + removeFiFo4);
+document.write("<br><br> Out: <br>" + removeFiFo1 + "<br> Out: <br>" + removeFiFo2 + "<br> Out: <br>" + removeFiFo3 + "<br> Out: <br>" + removeFiFo4);*/
+
+
+
+
+
+
+
+
+
+
+
+
+//question-15
+/*Write a program to store phone manufacturers (Apple, 
+Samsung, Motorola, Nokia, Sony & Haier) in an array. 
+Display the following dropdown/select menu in your 
+browser using document.write() method: */
+
+var phoneManufacturers = ["Apple", "Samsung"," Motorola"," Nokia", "Sony" , "Haier"];
+document.write('<label for="manufacturers">Choose a phone manufacturer:</label>');
+document.write('<select id="manufacturers" name="manufacturers">');
+document.write('<option value="' + phoneManufacturers[0] + '">' + phoneManufacturers[0] + '</option>');
+document.write('<option value="' + phoneManufacturers[1] + '">' + phoneManufacturers[1] + '</option>');
+document.write('<option value="' + phoneManufacturers[2] + '">' + phoneManufacturers[2] + '</option>');
+document.write('<option value="' + phoneManufacturers[3] + '">' + phoneManufacturers[3] + '</option>');
+document.write('<option value="' + phoneManufacturers[4] + '">' + phoneManufacturers[4] + '</option>');
+document.write('<option value="' + phoneManufacturers[5] + '">' + phoneManufacturers[5] + '</option>');
+document.write('</select>');
