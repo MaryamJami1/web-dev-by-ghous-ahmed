@@ -284,7 +284,7 @@ Samsung, Motorola, Nokia, Sony & Haier) in an array.
 Display the following dropdown/select menu in your 
 browser using document.write() method: */
 
-var phoneManufacturers = ["Apple", "Samsung"," Motorola"," Nokia", "Sony" , "Haier"];
+/*var phoneManufacturers = ["Apple", "Samsung"," Motorola"," Nokia", "Sony" , "Haier"];
 document.write('<label for="manufacturers">Choose a phone manufacturer:</label>');
 document.write('<select id="manufacturers" name="manufacturers">');
 document.write('<option value="' + phoneManufacturers[0] + '">' + phoneManufacturers[0] + '</option>');
@@ -293,4 +293,4 @@ document.write('<option value="' + phoneManufacturers[2] + '">' + phoneManufactu
 document.write('<option value="' + phoneManufacturers[3] + '">' + phoneManufacturers[3] + '</option>');
 document.write('<option value="' + phoneManufacturers[4] + '">' + phoneManufacturers[4] + '</option>');
 document.write('<option value="' + phoneManufacturers[5] + '">' + phoneManufacturers[5] + '</option>');
-document.write('</select>');
+document.write('</select>');*/
