@@ -220,7 +220,43 @@ document.write("<br>String: " + arr.join("_"));*/
 that you can access the values in the order in which they 
 were stored. (FIFO-First In First Out) */
 
-var newArray = [];
+/*var newArray = [];
 
 newArray.push("Keyboard");
+newArray.push("Mouse");
+newArray.push("Printer");
+newArray.push("Monitor");
 
+document.write("<h2>Devices: <br>" + newArray);
+
+var removeFiFo1 = newArray.shift();
+var removeFiFo2 = newArray.shift();
+var removeFiFo3 = newArray.shift();
+var removeFiFo4 = newArray.shift();
+
+document.write("<br><br> Out: <br>" + removeFiFo1 + "<br> Out: <br>" + removeFiFo2 + "<br> Out: <br>" + removeFiFo3 + "<br> Out: <br>" + removeFiFo4);*/
+
+
+
+
+
+
+
+
+
+
+// // Create an empty array
+// var fifo = [];
+
+// // Add values to the array
+// fifo.push(1);
+// fifo.push(2);
+// fifo.push(3);
+// fifo.push(4);
+
+// // Display the values in FIFO order manually
+// document.write('<h2>Values in FIFO order:</h2>');
+// document.write(fifo.shift() + '<br>');
+// document.write(fifo.shift() + '<br>');
+// document.write(fifo.shift() + '<br>');
+// document.write(fifo.shift() + '<br>');
