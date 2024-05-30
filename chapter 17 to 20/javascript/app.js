@@ -121,4 +121,12 @@ var counting= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 for(i=0; i<counting.length; i++){
      document.write(counting[i] + ", ");
-}
+};
+
+
+
+
+document.write("<h2>Reverse Counting:</h2>")
+for(i=10; i >= 1; i--){
+document.write([i] + ", ")
+};
