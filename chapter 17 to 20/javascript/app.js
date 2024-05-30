@@ -119,7 +119,6 @@ e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 document.write("<h2>Counting:</h2>")
 var counting= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-for(i=0; i<=counting.length; i++){
-     document.write(counting.join(", ")[i]);
-
+for(i=0; i<counting.length; i++){
+     document.write(counting[i] + ", ");
 }
