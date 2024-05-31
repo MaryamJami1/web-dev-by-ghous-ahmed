@@ -251,6 +251,16 @@ document.write("<br> The largest number is: "+ Math.max(...A));*/
 
 
 //question--9
+/*Write a program to identify the smallest number in the 
+given array. 
+A = [24, 53, 78, 91, 12]
+ */
+
+
+/*var A = [24, 53, 78, 91, 12];
+
+document.write("Array Items "+A);
+document.write("<br>Smallest number is: "+ Math.min(...A));*/
 
 
 
@@ -260,3 +270,21 @@ document.write("<br> The largest number is: "+ Math.max(...A));*/
 
 
 
+
+
+
+
+
+
+
+
+
+//question-10
+/**
+ * Write a program to print multiples of 5 ranging 1 to 
+100.
+ */
+
+for(i= 5; i<=100; i+=5){
+console.log(i);
+};
