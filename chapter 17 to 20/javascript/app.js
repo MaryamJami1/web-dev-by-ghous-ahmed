@@ -203,13 +203,60 @@ After searching, prompt the user whether the given item is
 found in the list or not. Example:
  */
 
-var bakery = ["cake", "apple pie", "“cookie”", "“chips”", "“patties”"];
+// var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
 
-var customerInput = prompt("Welcome to our bakery! What do want to order sir/ma,am ");
+// var customerInput = prompt("Welcome to our bakery! What do you want to order, sir/ma'am?");
+
+// if(bakery.includes(customerInput)){
+//     var index = bakery.indexOf(customerInput);
+//     alert(`Your ${customerInput} is available at index ${index} in our bakery`);
+// } else {
+//     alert(`We are sorry, ${customerInput} is not available in our bakery`);
+// };
 
 
-if(bakery.includes(customerInput)){
-     alert(`your cookie is Available at index ${bakery[customerInput]} in our bakery` );
-}else{
-alert(`We are sorry ${bakery[customerInput]} is not available in our bakery`);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//question-8
+/*Write a program to identify the largest number in the 
+given array. 
+A = [24, 53, 78, 91, 12]. */
+
+/*var A = [24, 53, 78, 91, 12];
+document.write("Array items: "+ A);
+document.write("<br> The largest number is: "+ Math.max(...A));*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//question--9
+
+
+
+
+
+
+
+
+
