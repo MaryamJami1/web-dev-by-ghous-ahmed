@@ -207,8 +207,9 @@ var bakery = ["cake", "apple pie", "“cookie”", "“chips”", "“patties”
 
 var customerInput = prompt("Welcome to our bakery! What do want to order sir/ma,am ");
 
+
 if(bakery.includes(customerInput)){
-console.log(`your cookie is Available at index in our bakery` );
+     alert(`your cookie is Available at index ${bakery[customerInput]} in our bakery` );
 }else{
-alert("We are sorry pastry is not available in our bakery");
+alert(`We are sorry ${bakery[customerInput]} is not available in our bakery`);
 }
