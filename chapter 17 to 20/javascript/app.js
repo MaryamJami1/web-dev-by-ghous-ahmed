@@ -203,7 +203,7 @@ After searching, prompt the user whether the given item is
 found in the list or not. Example:
  */
 
-var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+/*var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
 
 var customerInput = prompt("Welcome to our bakery! What do you want to order, sir/ma'am?");
 
@@ -212,11 +212,7 @@ if(bakery.includes(customerInput)){
     alert(`Your ${customerInput} is available at index ${index} in our bakery`);
 } else {
     alert(`We are sorry, ${customerInput} is not available in our bakery`);
-};
-
-
-
-
+};*/
 
 
 
