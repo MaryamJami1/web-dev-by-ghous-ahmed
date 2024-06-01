@@ -275,6 +275,6 @@ document.write("<br>Smallest number is: "+ Math.min(...A));*/
 100.
  */
 
-for(i= 5; i<=100; i+=5){
+/*for(i= 5; i<=100; i+=5){
 document.write(i + ", ");
-};
+};*/
