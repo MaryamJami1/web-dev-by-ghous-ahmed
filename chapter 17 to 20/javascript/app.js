@@ -315,24 +315,36 @@ console.log(nameList[i]);
 
 
 
+
  /*Write a program that prints all even numbers between 1 and 20. */
 
-// let evenNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+/*let evenNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-// for(i=0; i<evenNumbers.length; i++){
-// if(evenNumbers[i] % 2 == 0){
-//      console.log(evenNumbers[i])
-// }};
+for(i=0; i<evenNumbers.length; i++){
+if(evenNumbers[i] % 2 == 0){
+     console.log(evenNumbers[i])
+}};*/
+
+
 
 
 /*Write a loop that calculates the sum of numbers from 1 to 100. */
 
-var sum = 0;
+/*var sum = 0;
 
 for(i=1; i<=100; i++){
 sum+=i;
 };
 
-console.log(`sum of numbers from 1 to 100 is: ${sum}`);
+console.log(`sum of numbers from 1 to 100 is: ${sum}`);*/
 
 
+
+
+/*Write a loop that prints each character of a given string str.*/
+
+var printStr = "Hello World!";
+
+for(i=0; i < printStr.length; i++){
+ console.log(printStr[i]);
+};
