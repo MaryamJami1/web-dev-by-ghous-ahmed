@@ -343,8 +343,8 @@ console.log(`sum of numbers from 1 to 100 is: ${sum}`);*/
 
 /*Write a loop that prints each character of a given string str.*/
 
-var printStr = "Hello World!";
+/*var printStr = "Hello World!";
 
 for(i=0; i < printStr.length; i++){
  console.log(printStr[i]);
-};
+};*/
