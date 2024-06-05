@@ -348,3 +348,23 @@ console.log(`sum of numbers from 1 to 100 is: ${sum}`);*/
 for(i=0; i < printStr.length; i++){
  console.log(printStr[i]);
 };*/
+
+
+
+
+
+////////////////nested loops
+
+// *
+// **
+// ***
+// ****
+// *****
+
+
+for(var i=1; i<=5; i++){
+for(var j=1; j<=i; j++){
+document.write("*")
+}
+document.write("<br>")
+}
