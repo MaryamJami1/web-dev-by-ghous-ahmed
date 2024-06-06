@@ -385,3 +385,16 @@ document.write("*")
 }
 document.write("<br>")
 }*/
+
+
+
+
+// write a program 5 by 5 using nested loop
+
+for(var i=1; i<=5; i++){
+for(var j=1; j<=5; j++){
+document.write(`${i} x ${j} = ${i * j}`)
+document.write("<br>")
+}
+document.write("<br>")
+}
