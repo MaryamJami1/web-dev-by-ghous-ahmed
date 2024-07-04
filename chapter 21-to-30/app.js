@@ -119,3 +119,16 @@
 // console.log("User Input " + str)
 // var capital= str.toUpperCase()
 // console.log("Capital case " + capital)
+
+
+
+
+
+//question-11
+// var str = prompt("Tell us of your favourite programming language");
+// console.log("User Input: " + str)
+// var title = str.slice(0 , 1)
+// var upper = title.toUpperCase()
+// var remain = str.slice(1)
+// var titleCase = upper + remain
+// console.log("Title Case: " + titleCase)
