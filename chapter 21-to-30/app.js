@@ -25,3 +25,13 @@
 
 
 //question-3
+// var str = "pakistani" 
+// var indexN;
+// for (var i=0; i<str.length; i++){
+//      if (str[i] == "n"){
+//           indexN = i;
+//           console.log(str);
+//           console.log(`index of n: ${indexN}`);
+//           break;
+//      }
+// }
