@@ -67,3 +67,14 @@
 // var lastName = prompt("Enter your last name"); 
 // var fullName = `${firstName} ${lastName}`;
 // var greet = alert("Hello ".concat( fullName , " How was your day?"))
+
+
+
+
+
+
+//question-7
+// var str = "Hyderabad" 
+// console.log("City " +str)
+// var replaceCity = str.replace("Hyder", "Islam");
+// console.log(`Replace City ${replaceCity}`)
