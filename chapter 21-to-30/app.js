@@ -8,6 +8,7 @@
 
 
 
+
 // question-2
 // var mobilePhone = prompt("Enter your favourite mobile phone");
 
@@ -56,3 +57,13 @@
 // var indexI = str.charAt(3);
 // console.log(str)
 // console.log(`character at index 3: ${indexI}`)
+
+
+
+
+
+//question-6
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name"); 
+// var fullName = `${firstName} ${lastName}`;
+// var greet = alert("Hello ".concat( fullName , " How was your day?"))
