@@ -89,3 +89,21 @@
 // console.log(message)
 // var replaceAnd = message.replaceAll("and", "&");
 // console.log(`${replaceAnd}`)
+
+
+
+
+
+
+
+
+//question-9
+// var num = "472";
+// console.log(`value ${num} `)
+// console.log("type " + typeof(num))
+
+// //var chnge = parseInt(num)
+// var chnge = Number(num)
+
+// console.log(`value ${num} `)
+// console.log("type " + typeof(chnge))
