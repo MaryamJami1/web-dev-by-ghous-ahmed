@@ -181,3 +181,24 @@
 // else{
 //     alert(`${userInput} is not available in our bakery`)
 //      }
+
+
+
+
+
+//question-15
+
+
+
+
+
+
+
+
+
+//question-16
+// var university = "University of Karachi"
+// var arr = university.split("")
+// for(var i=0; i<arr.length; i++){
+//      console.log(arr[i])
+// }
