@@ -46,3 +46,13 @@
 // var indexL = str.lastIndexOf("l");
 // console.log(str)
 // console.log(`last index of l: ${indexL}`);
+
+
+
+
+
+//question-5
+// var str = "pakistani" 
+// var indexI = str.charAt(3);
+// console.log(str)
+// console.log(`character at index 3: ${indexI}`)
