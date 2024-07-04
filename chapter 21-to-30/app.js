@@ -35,3 +35,14 @@
 //           break;
 //      }
 // }
+
+
+
+
+
+
+//question-4
+// var str = "Hello World" 
+// var indexL = str.lastIndexOf("l");
+// console.log(str)
+// console.log(`last index of l: ${indexL}`);
