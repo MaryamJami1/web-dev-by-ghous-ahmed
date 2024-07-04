@@ -218,3 +218,19 @@
 // var arrJoin = arrReverse.join("")
 // var lastChar = arrJoin[0]
 // console.log("Last character: " + lastChar)
+
+
+
+
+//question-18
+// var str = "The quick brown fox jumps over the lazy dog";
+// console.log("string: " + str )
+// var the =0;
+// var lower = str.toLowerCase();
+// for(var i=0; i<lower.length; i++){
+//     var slic = lower.slice(i,i+3)
+//   if (slic=="the"){
+//        the++
+//   }
+  
+// }console.log(" Accuraces of the is: "+ the)
