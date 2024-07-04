@@ -107,3 +107,15 @@
 
 // console.log(`value ${num} `)
 // console.log("type " + typeof(chnge))
+
+
+
+
+
+
+
+//question-10
+// var str = prompt("Tell us of your favourite Dry fruit Name");
+// console.log("User Input " + str)
+// var capital= str.toUpperCase()
+// console.log("Capital case " + capital)
