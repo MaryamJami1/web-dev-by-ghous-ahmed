@@ -202,3 +202,19 @@
 // for(var i=0; i<arr.length; i++){
 //      console.log(arr[i])
 // }
+
+
+
+
+
+
+
+//question-17
+// var userInput = prompt("Enter a city name and check it's last character");
+// console.log("Uset Input: " + userInput)
+
+// var arr = userInput.split("")
+// var arrReverse = arr.reverse()
+// var arrJoin = arrReverse.join("")
+// var lastChar = arrJoin[0]
+// console.log("Last character: " + lastChar)
