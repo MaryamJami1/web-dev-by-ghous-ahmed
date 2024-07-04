@@ -146,3 +146,38 @@
 // var chnge = num.toString()
 // var remove = chnge.replace(".", "")
 // console.log("result " + remove + " type: " + typeof(remove))
+
+
+
+
+
+//question-13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//question-14
+// var A = ["cake", "apple pie","cookie","chips", "patties"]
+// var userInput = prompt("Welcome to ABC bakery! what do you want to order sir/maam?")
+// var lower = userInput.toLowerCase()
+// var flag = false;
+// for(var i=0; i<A.length; i++){
+//      if(A[i] == lower) {
+//         flag = true }
+// }if(flag){
+//      alert(`${userInput} is available in our bakery`)}
+// else{
+//     alert(`${userInput} is not available in our bakery`)
+//      }
