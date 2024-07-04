@@ -78,3 +78,14 @@
 // console.log("City " +str)
 // var replaceCity = str.replace("Hyder", "Islam");
 // console.log(`Replace City ${replaceCity}`)
+
+
+
+
+
+
+//question-8
+// var message = "Ali and Sami are best friends.They play cricket and football together.";
+// console.log(message)
+// var replaceAnd = message.replaceAll("and", "&");
+// console.log(`${replaceAnd}`)
