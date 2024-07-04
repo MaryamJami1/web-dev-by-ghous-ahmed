@@ -132,3 +132,17 @@
 // var remain = str.slice(1)
 // var titleCase = upper + remain
 // console.log("Title Case: " + titleCase)
+
+
+
+
+
+
+
+
+//question-12
+// var num = 35.36;
+// console.log("number " + num + " type: " + typeof(num))
+// var chnge = num.toString()
+// var remove = chnge.replace(".", "")
+// console.log("result " + remove + " type: " + typeof(remove))
