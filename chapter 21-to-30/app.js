@@ -234,3 +234,16 @@
 //   }
   
 // }console.log(" Accuraces of the is: "+ the)
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////Math Methods
