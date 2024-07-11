@@ -42,7 +42,7 @@ console.log(sum())*/
 // question-4
 
 
-/*function calculator() {
+function calculator() {
     let num1 = Number(prompt("Enter first number"))
     let num2 = Number(prompt("Enter second number"))
     let operator = prompt("Enter operator", "+ - * /")
@@ -75,7 +75,7 @@ console.log(sum())*/
 
     return num1 + operator + num2 + " = "+ result
 }
-alert(calculator())*/
+alert(calculator())
 
 
 
