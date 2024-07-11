@@ -86,10 +86,10 @@ alert(calculator())*/
 
 
 //question-5
-function square() {
-    let userInput = Number(prompt("enter a number for its square"))
-    let squareValue = userInput * userInput
-    return squareValue
-}
+// function square() {
+//     let userInput = Number(prompt("enter a number for its square"))
+//     let squareValue = userInput * userInput
+//     return squareValue
+// }
 
-alert(square()`the square of ${userInput} is ${squareValue}`);
+// alert(square()`the square of ${userInput} is ${squareValue}`);
