@@ -145,8 +145,8 @@ factorial()*/
 
 //question-7
 function counting(){
-let start = prompt("enter number a number where you want to start counting");
-let end = prompt("enter number a number where you want to end counting");
+let start = Number(prompt("enter number a number where you want to start counting"));
+let end = Number(prompt("enter number a number where you want to end counting"));
 let count;
 
 for(let i=start; i<=end; i++){
