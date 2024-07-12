@@ -188,8 +188,11 @@ factorial()*/
 
 
 //question-9
-
-
+function rectangle(width, height){
+    let areaarectangle = width*height
+    return `Area of rectangle is ${areaarectangle}`
+}
+console.log(rectangle(30, 60));
 
 
 
