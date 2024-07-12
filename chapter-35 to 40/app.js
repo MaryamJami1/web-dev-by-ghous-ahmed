@@ -188,11 +188,23 @@ factorial()*/
 
 
 //question-9
-function rectangle(width, height){
-    let areaarectangle = width*height
-    return `Area of rectangle is ${areaarectangle}`
-}
-console.log(rectangle(30, 60));
+// function rectangle(width, height){
+//     let areaarectangle = width*height
+//     return `Area of rectangle is ${areaarectangle}`
+// }
+// console.log(rectangle(30, 60));
+
+
+// let recWidth= 6;
+// let recHeight = 12;
+// function rectangle(width, height){
+// return width*height
+// }
+// console.log(rectangle(recWidth,recHeight));
+
+
+
+
 
 
 
