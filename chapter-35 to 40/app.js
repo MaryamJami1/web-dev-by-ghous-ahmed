@@ -112,7 +112,7 @@ alert(square(8))*/
 
 
 //qusetion-6
-function factorial(){
+/*function factorial(){
 let userInput = Number(prompt("enter a number"))
 if(userInput<0){
 alert(`Error: Factorial is not defined for negative numbers`)
@@ -125,7 +125,7 @@ alert("The factorial of "+ userInput + " is "+result)
     
 }
 }
-factorial()
+factorial()*/
 
 // 1 *2 = 2
 // 2 * 3 = 6
