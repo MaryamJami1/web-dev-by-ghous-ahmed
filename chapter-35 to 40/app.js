@@ -144,15 +144,52 @@ factorial()*/
 
 
 //question-7
-function counting(){
-let start = Number(prompt("enter number a number where you want to start counting"));
-let end = Number(prompt("enter number a number where you want to end counting"));
-let count;
+// function counting(){
+// let start = Number(prompt("enter number a number where you want to start counting"));
+// let end = Number(prompt("enter number a number where you want to end counting"));
+// let count;
 
-for(let i=start; i<=end; i++){
-count=i;
-console.log(count);
-}
-}
-counting();
+// for(let i=start; i<=end; i++){
+// count=i;
+// console.log(count);
+// }
+// }
+// counting();
+
+
+
+
+
+
+
+
+
+//question-8
+// function calculateHypotenuse(){
+//   function calculateSquare(x){
+//     return x * x
+//   }
+
+//   let base = Number(prompt("Enter the base of a right angle triangle"))
+//   let perpendicular = Number(prompt("Enter the perpendicular of a right angle triangle"))
+//   let sqr = calculateSquare(base) + calculateSquare(perpendicular);
+//   let hypoteneuse = Math.sqrt(sqr);
+//   alert(`hypotenuse 0f base:${base} and perpendicular:${perpendicular} is ${hypoteneuse}`)
+//   return hypoteneuse;
+// }
+// console.log(calculateHypotenuse());
+
+
+
+
+
+
+
+
+
+//question-9
+
+
+
+
 
