@@ -41,7 +41,6 @@ console.log(sum())*/
 
 // question-4
 
-
 /*function calculator() {
     let num1 = Number(prompt("Enter first number"))
     let num2 = Number(prompt("Enter second number"))
@@ -86,6 +85,7 @@ alert(calculator())*/
 
 
 //question-5
+// using prompt
 /*function square() {
     let userInput = Number(prompt("enter a number for its square"))
     let squareValue = userInput * userInput
@@ -93,3 +93,41 @@ alert(calculator())*/
 }
 
 alert(square());*/
+
+
+
+// pass arguments
+/*function square(x) {
+    let squareValue = x * x
+    return `the square of ${x} and ${x} is ${squareValue}`
+}
+
+alert(square(8))*/
+
+
+
+
+
+
+
+
+//qusetion-6
+// function factorial(){
+// let userInput = Number(prompt("enter a number"))
+// if(userInput<0){
+// alert(`Error: Factorial is not defined for negative numbers`)
+// }else{
+//     let result = 1;
+//     for(let i = 2; i<=userInput; i++){
+//         result*=i
+//     }
+// alert("The factorial of "+ userInput + " is "+result)
+    
+// }
+// }
+// factorial()
+
+// 1 *2 = 2
+// 2 * 3 = 6
+// 6 * 4 = 24
+// 24 * 5 = 120
