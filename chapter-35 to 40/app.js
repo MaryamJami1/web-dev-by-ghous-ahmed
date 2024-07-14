@@ -208,3 +208,35 @@ factorial()*/
 
 
 
+//question-10
+// function palindrome(){
+// let userInput = prompt("Enter a word and checks it's palindrome or not")
+// let arr = userInput.split("");
+// let arrReverse = arr.reverse();
+// let arrJoin = arrReverse.join("")
+// if(userInput == arrJoin){
+// return `${userInput} is a palindrome word`
+// }else{
+//     return `${userInput} is not a palindrome word`
+// }
+// }
+// alert(palindrome())
+
+
+
+
+
+
+
+
+
+
+//question-11
+function upperCase(){
+    let str = "'the quick brown fox'"
+    let strSplit = str.split(" ")
+    
+    console.log(strSplit);
+}
+
+upperCase()
