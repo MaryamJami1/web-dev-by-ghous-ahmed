@@ -232,11 +232,20 @@ factorial()*/
 
 
 //question-11
+
 function upperCase(){
-    let str = "'the quick brown fox'"
-    let strSplit = str.split(" ")
-    
-    console.log(strSplit);
+    let word = "the quick brown fox"
+    let strSplit = word.split(" ")
+    for(let i=0; i<strSplit.length; i++){
+        let firstChr = strSplit[i].charAt(0);
+        let upperChr = firstChr.toUpperCase();
+        let slc = strSplit[i].slice(1);
+        let final = upperChr + slc
+        strSplit[i]=final;
+    }
+   
+console.log(strSplit.join(" "));
 }
 
 upperCase()
+
