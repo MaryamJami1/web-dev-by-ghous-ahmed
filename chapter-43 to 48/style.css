@@ -1,0 +1,25 @@
+
+/* question-2 */
+.main-div{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+#img{
+    padding-top: 30px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid rgb(8, 11, 184);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(23, 25, 155);
+    text-align: center;
+    line-height: 2;
+}
+
+h1{
+    color: rgb(23, 25, 155);
+}
