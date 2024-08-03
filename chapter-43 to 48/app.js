@@ -35,10 +35,10 @@ function increase() {
 
 
 
-function decrease(){
-    if(count>0){
-        document.getElementById("counter").innerText= --count
-    }else{
-        alert("cart is empty")
-    }
-}
+// function decrease(){
+//     if(count>0){
+//         document.getElementById("counter").innerText= --count
+//     }else{
+//         alert("cart is empty")
+//     }
+// }
