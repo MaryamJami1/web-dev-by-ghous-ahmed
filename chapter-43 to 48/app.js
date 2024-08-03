@@ -16,9 +16,9 @@
 
 // question-3
 
-function deleteRow(row) {
-    row.parentNode.parentNode.remove()
-}
+// function deleteRow(row) {
+//     row.parentNode.parentNode.remove()
+// }
 
 
 
