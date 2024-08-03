@@ -27,11 +27,11 @@
 
 // question-5
 
-let count = 0;
+// let count = 0;
 
-function increase() {
-    document.getElementById("counter").innerText = ++count
-}
+// function increase() {
+//     document.getElementById("counter").innerText = ++count
+// }
 
 
 
