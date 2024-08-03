@@ -10,7 +10,7 @@
 
 <body>
 
-    <!-------------------------------question one-------------------------> 
+    <!-------------------------------question one------------------------->
     <a href="JavaScript:void(0)" onclick="greet()">Click Me i will greet you!</a>
 
 
@@ -26,7 +26,7 @@
             <div id="img">
                 <img src="box4_image.jpg" alt="mobile phone" onclick="alert('Thanks! for purchasing a phone from us')"
                     height="200px" width="200px">
-                 
+
 
             </div>
             <b>Iphone 13plus.gif</b>
@@ -63,25 +63,61 @@
 
 
 
-<!---------------------------- question-3 ---------------------->
-<table>
-    <th>index name class</th>
-    <tr>
-       <td>0: Maryam
-        <button>Delete</button>
-       </td>
-    </tr>
-    <tr>
-        <td>1: Aisha
-         <button>Delete</button>
-        </td>
-     </tr>
-     <tr>
-        <td>2: Hiba
-         <button onclick="deleteRow(this)">Delete</button>
-        </td>
-     </tr>
-</table>
+    <!---------------------------- question-3 ---------------------->
+    <table cellspacing="25">
+
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>John</td>
+                <td>6</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Michel</td>
+                <td>3</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Albert</td>
+                <td>8</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Adam</td>
+                <td>9</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+                <td>1</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Alise</td>
+                <td>4</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>justin</td>
+                <td>10</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
 
 
 
@@ -89,9 +125,27 @@
 
 
 
+    <!---------------------------- question-4 ---------------------->
+
+
+    <a href="JavaScript:void(0)"><img src="box7_image.jpg" alt="aeroplane" height="300px" width="300px" id="img-mouse"
+            onmouseover="src='box8_image.jpg'" onmouseout="src='box7_image.jpg'">
+    </a>
 
 
 
+
+
+
+
+    <!---------------------------- question-5 ---------------------->
+    <table cellspacing="25">
+        <tr>
+            <td ><button onclick="increase()" style="width: 60px;">+1</button></td>
+            <td id="counter">0</td>
+            <td><button onclick="decrease()" style="width: 60px;">-1</button></td>
+        </tr>
+    </table>
 
 
     <script src="app.js"></script>
