@@ -1,8 +1,8 @@
 // question one
 
-function greet() {
-    alert("Hello! How are you?")
-}
+// function greet() {
+//     alert("Hello! How are you?")
+// }
 
 
 
