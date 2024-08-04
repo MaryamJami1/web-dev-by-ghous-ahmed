@@ -13,7 +13,7 @@
     
     <!-- form start -->
 
-    <form action=".../" method="post" style=" width: 725px; margin-left: 265px;">
+    <form action="" method="post" onsubmit="getValues(event)" style=" width: 725px; margin-left: 265px;">
 
         <fieldset style="border: 2px solid black; margin: 10px;">
 
@@ -29,7 +29,7 @@
             <!-- first name -->
              
             <label for="name"><strong style="font-size: 18px;">First Name:</strong></label><br>
-            <input id="name" type="text" name="name" placeholder="Enter Your First name" required
+            <input id="name" type="text" name="first-name" placeholder="Enter Your First name" required
                 style="width: 600px; height: 20px;">
 
 
@@ -38,7 +38,7 @@
             <!-- last name -->
             <br><br>
             <label for="last-name"><strong style="font-size: 18px;">Last Name:</strong></label><br>
-            <input id="last-name" type="text" name="name" placeholder="Enter Your Last name" required
+            <input id="last-name" type="text" name="last-name" placeholder="Enter Your Last name" required
                 style="width: 600px; height: 20px;">
 
             <!-- email address -->
@@ -52,17 +52,19 @@
 
             <br><br>
             <label for="password"><strong style="font-size: 18px;">Password:</strong></label><br>
-            <input id="password" type="password" maxlength="10" name="password" placeholder="Enter Your Password"
+            <input id="password" type="password" maxlength="15" name="password" placeholder="Enter Your Password"
                 style="width: 600px; height: 20px;">
 
                 <br><br>
                 <button type="reset">Reset</button>
-               <a href=".../"><button type="submit" onsubmit="getValues()">Submit</button></a>
+              <button type="submit">Submit</button>
 
         </fieldset>
 
     </form>
 
+
+    <div id="formData"></div>
     <!-- form end -->
 
     
